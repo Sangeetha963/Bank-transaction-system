@@ -1,0 +1,129 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Helvetica', sans-serif;
+    background-color: #d61ac7f6;
+}
+
+
+.bg-light{
+    background-color: #f8d8fe!important;
+}
+
+.navbar-brand{
+    font-family: 'Comic Sans', cursive;
+    font-size: 1.5rem;
+    color: #685f61!important;
+}
+
+.nav-link{
+    color: #655f68!important;
+    font-family: 'Comic Sans', cursive;
+}
+
+.nav-link:hover{
+    background-color: #f18973;
+}
+.hero-content{
+    height: 100vh;
+    background-color: #355070;
+    color: #ffffff;
+    padding: 3rem;
+	
+    border-bottom-right-radius: 50rem;
+	border-bottom-left-radius: 50rem;
+    margin-bottom: 2vh;
+	margin-top: 2vh;
+}
+
+.hero-img{
+    border-top-left-radius: 25rem;
+    border-top-right-radius: 25rem;
+    border-bottom-right-radius: 25rem;
+	border-bottom-left-radius: 25rem;
+	height:70vh;
+	width:70vh;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: rgb(255, 80, 80);
+    color: #000000!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.959);
+    
+}
+
+.get-started-content{
+    height: 60vh;
+    background-color: #ff896552;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #3f03e588;
+    color: rgba(255, 255, 255, 0.308)!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #0d01b6;
+    text-decoration: none;
+}
+
+footer{
+    background-color:  #fbfed886;
+	height:100%;
+	margin-bottom: 0px;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github {
+    color: #29242ee8;
+}
+
+.linkedin{
+    color: #2700b5;
+}
+
+.google{
+    color: #d44538ee;
+}
+
+.align-items-center{
+	height:100%;
+}
+
+.new{
+    color:rgba(255, 255, 255, 0.897);
+}
